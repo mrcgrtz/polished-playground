@@ -1,0 +1,36 @@
+{
+  "name": "polished-playground",
+  "private": true,
+  "version": "1.0.0",
+  "license": "WTFPL",
+  "repository": "github:mrcgrtz/polished-playground",
+  "author": {
+    "name": "Marc Görtz",
+    "email": "git@marcgoertz.de",
+    "url": "https://marcgoertz.de/"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "format": "prettier --write .",
+    "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider preact watch",
+    "test": "xo && stylelint **/*.styles.*"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "eslint-config-xo-preact": "^1.0.0",
+    "eslint-plugin-react": "^7.32.2",
+    "postcss-styled-syntax": "^0.4.0",
+    "preact-cli": "^3.0.0",
+    "prettier": "^2.8.7",
+    "stylelint": "^15.4.0",
+    "stylelint-config-standard": "^32.0.0",
+    "xo": "^0.54.1"
+  },
+  "dependencies": {
+    "polished": "^4.2.2",
+    "preact": "^10.13.2",
+    "styled-components": "^5.3.9"
+  }
+}
