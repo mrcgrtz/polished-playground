@@ -7,7 +7,7 @@ export const GlobalStyle = createGlobalStyle`
 
 	body {
 		margin: 0;
-		font-family: sans-serif;
+		font-family: Superclarendon, 'Bookman Old Style', 'URW Bookman', 'URW Bookman L', 'Georgia Pro', Georgia, serif;
 		line-height: 1.5;
 	}
 `;
@@ -21,10 +21,15 @@ export const Block = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	color: #fff;
 	font-weight: bold;
 	text-transform: uppercase;
-	letter-spacing: 0.5em;
-	color: #fff;
+	letter-spacing: 0.25em;
+	transition: letter-spacing 0.2s ease;
+
+	&:hover {
+		letter-spacing: 0.5rem;
+	}
 `;
 
 export const Original = styled(Block)`
