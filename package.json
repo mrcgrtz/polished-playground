@@ -15,7 +15,9 @@
   "scripts": {
     "format": "prettier --write .",
     "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider preact watch",
-    "test": "xo && stylelint **/*.styles.*"
+    "test": "npm run-script test:js && npm run-script test:css",
+    "test:css": "stylelint **/*.styles.*",
+    "test:js": "xo"
   },
   "devDependencies": {
     "@types/styled-components": "^5.1.26",
