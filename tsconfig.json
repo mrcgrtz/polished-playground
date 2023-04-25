@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"allowJs": true,
+		"baseUrl": "./",
+		"checkJs": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"jsx": "react",
+		"jsxFactory": "h",
+		"jsxFragmentFactory": "Fragment",
+		"module": "ESNext",
+		"moduleResolution": "Node",
+		"noEmit": true,
+		"paths": {
+			"react": ["./node_modules/preact/compat"],
+			"react-dom": ["./node_modules/preact/compat"]
+		},
+		"skipLibCheck": true,
+		"strict": true,
+		"target": "ESNext"
+	},
+	"include": ["src/**/*"]
+}

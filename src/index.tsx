@@ -1,23 +1,21 @@
+import {h} from 'preact';
 import {ThemeProvider} from 'styled-components';
 import {lighten, desaturate} from 'polished';
-import {GlobalStyle, Original, Polished, Target, Wrapper} from './index.styles';
+import {Original, Polished, Target} from './index.styles';
 
 const theme = {
 	source: '#00977d',
 	target: '#6ec2b7',
-	calculate: (color) =>
+	calculate: (color: string) =>
 		// Adjust this function to your needs
 		lighten(0.3, desaturate(0.6, color)),
 };
 
 const App = () => (
 	<ThemeProvider theme={theme}>
-		<GlobalStyle />
-		<Wrapper>
-			<Original>Original</Original>
-			<Polished>Polished</Polished>
-			<Target>Target</Target>
-		</Wrapper>
+		<Original>Original</Original>
+		<Polished>Polished</Polished>
+		<Target>Target</Target>
 	</ThemeProvider>
 );
 

@@ -3,5 +3,20 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width,initial-scale=1" />
 	<title><% preact.title %></title>
+	<style>
+		html,
+		body {
+			height: 100%;
+		}
+
+		body {
+			margin: 0;
+			font-family: Superclarendon, 'Bookman Old Style', 'URW Bookman',
+				'URW Bookman L', 'Georgia Pro', Georgia, serif;
+			line-height: 1.5;
+			display: grid;
+			grid-template-rows: repeat(3, 1fr);
+		}
+	</style>
 	<% preact.headEnd %> <% preact.bodyEnd %>
 </html>
