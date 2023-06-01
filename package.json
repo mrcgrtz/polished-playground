@@ -35,6 +35,6 @@
   "dependencies": {
     "polished": "^4.2.2",
     "preact": "^10.13.2",
-    "styled-components": "^5.3.10"
+    "styled-components": "^5.3.11"
   }
 }
