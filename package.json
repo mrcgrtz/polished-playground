@@ -34,7 +34,7 @@
   },
   "dependencies": {
     "polished": "^4.2.2",
-    "preact": "^10.13.2",
+    "preact": "^10.15.1",
     "styled-components": "^5.3.11"
   }
 }
