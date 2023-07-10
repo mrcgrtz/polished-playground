@@ -1,4 +1,8 @@
-import {styled} from 'styled-components';
+import {styled, type DefaultTheme} from 'styled-components';
+
+type Props = {
+	theme: DefaultTheme;
+};
 
 export const Block = styled.div`
 	display: flex;
@@ -18,13 +22,13 @@ export const Block = styled.div`
 `;
 
 export const Original = styled(Block)`
-	background-color: ${(p) => p.theme.source};
+	background-color: ${(p: Props) => p.theme.source};
 `;
 
 export const Target = styled(Block)`
-	background-color: ${(p) => p.theme.target};
+	background-color: ${(p: Props) => p.theme.target};
 `;
 
 export const Polished = styled(Block)`
-	background-color: ${(p) => p.theme.calculate(p.theme.source)};
+	background-color: ${(p: Props) => p.theme.calculate(p.theme.source)};
 `;
