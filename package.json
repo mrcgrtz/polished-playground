@@ -20,7 +20,6 @@
     "test:js": "xo"
   },
   "devDependencies": {
-    "@types/styled-components": "^5.1.26",
     "cross-env": "^7.0.3",
     "eslint-config-xo-preact": "^1.0.0",
     "eslint-plugin-react": "^7.32.2",
@@ -35,6 +34,7 @@
   "dependencies": {
     "polished": "^4.2.2",
     "preact": "^10.15.1",
-    "styled-components": "^5.3.11"
+    "styled-components": "^6.0.1",
+    "stylis": "^4.3.0"
   }
 }
