@@ -23,7 +23,7 @@
     "cross-env": "^7.0.3",
     "eslint-config-xo-preact": "^1.0.0",
     "eslint-plugin-react": "^7.37.2",
-    "postcss-styled-syntax": "^0.6.4",
+    "postcss-styled-syntax": "^0.7.0",
     "preact-cli": "^3.5.1",
     "prettier": "^3.3.3",
     "stylelint": "^16.10.0",
