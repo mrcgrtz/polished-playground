@@ -27,7 +27,7 @@
     "preact-cli": "^3.5.1",
     "prettier": "^3.5.3",
     "stylelint": "^16.20.0",
-    "stylelint-config-standard": "^36.0.1",
+    "stylelint-config-standard": "^38.0.0",
     "typescript": "^5.8.3",
     "xo": "^0.60.0"
   },
