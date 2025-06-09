@@ -21,15 +21,13 @@
   },
   "devDependencies": {
     "cross-env": "^7.0.3",
-    "eslint-config-xo-preact": "^1.0.0",
-    "eslint-plugin-react": "^7.37.5",
     "postcss-styled-syntax": "^0.7.1",
     "preact-cli": "^3.5.1",
     "prettier": "^3.5.3",
     "stylelint": "^16.20.0",
     "stylelint-config-standard": "^38.0.0",
     "typescript": "^5.8.3",
-    "xo": "^0.60.0"
+    "xo": "^1.0.5"
   },
   "dependencies": {
     "polished": "^4.3.1",
