@@ -21,8 +21,6 @@
   },
   "devDependencies": {
     "cross-env": "^7.0.3",
-    "eslint-config-xo-preact": "^1.0.0",
-    "eslint-plugin-react": "^7.37.5",
     "postcss-styled-syntax": "^0.7.1",
     "preact-cli": "^3.5.1",
     "prettier": "^3.5.3",
