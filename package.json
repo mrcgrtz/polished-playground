@@ -23,7 +23,7 @@
     "cross-env": "^7.0.3",
     "postcss-styled-syntax": "^0.7.1",
     "preact-cli": "^3.5.1",
-    "prettier": "^3.5.3",
+    "prettier": "^3.6.2",
     "stylelint": "^16.20.0",
     "stylelint-config-standard": "^38.0.0",
     "typescript": "^5.8.3",
