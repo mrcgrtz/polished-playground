@@ -27,7 +27,7 @@
     "stylelint": "^16.26.1",
     "stylelint-config-standard": "^39.0.0",
     "typescript": "^5.9.3",
-    "xo": "^1.2.2"
+    "xo": "^1.2.3"
   },
   "dependencies": {
     "polished": "^4.3.1",
