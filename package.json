@@ -24,7 +24,7 @@
     "postcss-styled-syntax": "^0.7.1",
     "preact-cli": "^3.5.1",
     "prettier": "^3.8.3",
-    "stylelint": "^17.9.1",
+    "stylelint": "^17.12.0",
     "stylelint-config-standard": "^40.0.0",
     "typescript": "^6.0.3",
     "xo": "^2.0.2"
