@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "cross-env": "^10.1.0",
-    "postcss-styled-syntax": "^0.7.1",
+    "postcss-styled-syntax": "^0.7.2",
     "preact-cli": "^3.5.1",
     "prettier": "^3.8.3",
     "stylelint": "^17.12.0",
