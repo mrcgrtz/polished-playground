@@ -32,7 +32,7 @@
   "dependencies": {
     "polished": "^4.3.1",
     "preact": "^10.29.3",
-    "styled-components": "^6.4.3",
+    "styled-components": "^6.4.4",
     "stylis": "^4.4.0"
   }
 }
