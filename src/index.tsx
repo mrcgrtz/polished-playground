@@ -11,12 +11,12 @@ const theme = {
 		lighten(0.3, desaturate(0.6, color)),
 };
 
-const App = () => (
-	<ThemeProvider theme={theme}>
-		<Original>Original</Original>
-		<Polished>Polished</Polished>
-		<Target>Target</Target>
-	</ThemeProvider>
-);
-
-export default App;
+export default function App() {
+	return (
+		<ThemeProvider theme={theme}>
+			<Original>Original</Original>
+			<Polished>Polished</Polished>
+			<Target>Target</Target>
+		</ThemeProvider>
+	);
+}
