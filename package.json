@@ -1,23 +1,27 @@
 {
   "name": "polished-playground",
-  "private": true,
   "version": "1.0.0",
+  "private": true,
   "license": "WTFPL",
   "repository": "github:mrcgrtz/polished-playground",
-  "author": {
-    "name": "Marc Görtz",
-    "email": "git@marcgoertz.de",
-    "url": "https://marcgoertz.de/"
-  },
+  "author": "Marc Görtz <git@marcgoertz.de> (https://marcgoertz.de/)",
+  "type": "module",
   "engines": {
-    "node": ">=18"
+    "node": ">=24"
   },
   "scripts": {
     "format": "prettier --write .",
     "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider preact watch",
-    "test": "npm run-script test:js && npm run-script test:css",
+    "test": "npm run-script test:ts && npm run-script test:js && npm run-script test:css",
     "test:css": "stylelint **/*.styles.*",
-    "test:js": "xo"
+    "test:js": "xo",
+    "test:ts": "tsc --noEmit"
+  },
+  "dependencies": {
+    "polished": "^4.3.1",
+    "preact": "^10.29.8",
+    "styled-components": "^6.5.3",
+    "stylis": "^4.4.0"
   },
   "devDependencies": {
     "cross-env": "^10.1.0",
@@ -27,12 +31,6 @@
     "stylelint": "^17.15.0",
     "stylelint-config-standard": "^40.0.0",
     "typescript": "^6.0.3",
-    "xo": "^4.0.0"
-  },
-  "dependencies": {
-    "polished": "^4.3.1",
-    "preact": "^10.29.8",
-    "styled-components": "^6.5.3",
-    "stylis": "^4.4.0"
+    "xo": "^5.0.1"
   }
 }

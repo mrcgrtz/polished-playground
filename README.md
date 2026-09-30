@@ -4,7 +4,7 @@
 
 ## Requirements
 
--   [Node](https://nodejs.org/)
+- [Node](https://nodejs.org/)
 
 ## Installation
 
