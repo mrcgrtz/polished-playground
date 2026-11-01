@@ -20,7 +20,7 @@
   "dependencies": {
     "polished": "^4.3.1",
     "preact": "^10.29.8",
-    "styled-components": "^6.5.3",
+    "styled-components": "^6.6.0",
     "stylis": "^4.4.0"
   },
   "devDependencies": {
